@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_v1.0,Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:20:02,50.294s,FAILED
+,,,,,,,
+Test Cases/Website,Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:20:02,49.849s,PASSED
+"testData = findTestData(""Data Files/DataTest"")",Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:19:12,0.331s,PASSED
+"email = testData.getObjectValue(""email"", 1)",Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:19:12,0.018s,PASSED
+"password = testData.getObjectValue(""password"", 1)",Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:19:12,0.002s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,27-02-2024 13:19:12,27-02-2024 13:19:14,1.301s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"")",Chrome 122.0.0.0,,,27-02-2024 13:19:14,27-02-2024 13:19:34,20.872s,PASSED
+"setText(findTestObject(""Object Repository/Website/Login/input_Email or mobile phone number_email""), email)",Chrome 122.0.0.0,,,27-02-2024 13:19:34,27-02-2024 13:19:35,0.866s,PASSED
+"click(findTestObject(""Object Repository/Website/Login/input_Enter your email or mobile phone number_continue""))",Chrome 122.0.0.0,,,27-02-2024 13:19:35,27-02-2024 13:19:37,1.540s,PASSED
+"setText(findTestObject(""Object Repository/Website/Login/input_Forgot your password_password""), password)",Chrome 122.0.0.0,,,27-02-2024 13:19:37,27-02-2024 13:19:38,1.195s,PASSED
+"click(findTestObject(""Object Repository/Website/Login/input_Enter your password_signInSubmit""))",Chrome 122.0.0.0,,,27-02-2024 13:19:38,27-02-2024 13:19:38,0.305s,PASSED
+"setText(findTestObject(""Object Repository/Website/product/search""), ""pc"")",Chrome 122.0.0.0,,,27-02-2024 13:19:38,27-02-2024 13:19:43,4.746s,PASSED
+"click(findTestObject(""Object Repository/Website/product/Button search""))",Chrome 122.0.0.0,,,27-02-2024 13:19:43,27-02-2024 13:19:50,6.432s,PASSED
+"click(findTestObject(""Object Repository/Website/product/Product name""))",Chrome 122.0.0.0,,,27-02-2024 13:19:50,27-02-2024 13:19:54,4.685s,PASSED
+"click(findTestObject(""Object Repository/Website/product/span_Add to Cart""))",Chrome 122.0.0.0,,,27-02-2024 13:19:54,27-02-2024 13:19:58,3.575s,PASSED
+"click(findTestObject(""Object Repository/Website/product/Page cart""))",Chrome 122.0.0.0,,,27-02-2024 13:19:58,27-02-2024 13:20:01,3.590s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,27-02-2024 13:20:01,27-02-2024 13:20:02,0.158s,PASSED
+,,,,,,,
+Test Cases/Mobile,Chrome 122.0.0.0,,,27-02-2024 13:20:02,27-02-2024 13:20:02,0.023s,FAILED
+"testData = findTestData(""Data Files/DataTest"")",Chrome 122.0.0.0,,,27-02-2024 13:20:02,27-02-2024 13:20:02,0.008s,PASSED
+"email = testData.getObjectValue(""email"", 1)",Chrome 122.0.0.0,,,27-02-2024 13:20:02,27-02-2024 13:20:02,0.000s,PASSED
+"password = testData.getObjectValue(""password"", 1)",Chrome 122.0.0.0,,,27-02-2024 13:20:02,27-02-2024 13:20:02,0.001s,PASSED
+"startApplication(""E:\zalora.apk"", true)",Chrome 122.0.0.0,,,27-02-2024 13:20:02,27-02-2024 13:20:02,0.003s,FAILED

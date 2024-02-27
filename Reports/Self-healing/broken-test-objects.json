@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com/a_Shop nowShop now",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/div/div[2]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Amazon.com/a_Shop nowShop now_position.png"
+    }
+  ]
+}
