@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add to cart</name>
+   <tag></tag>
+   <elementGuidId>3ca74bbf-e410-49dc-93ce-e787998d166d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='a-autoid-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#a-autoid-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cae18acc-028e-4cf1-91db-4b2e9b08a141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button a-button-primary a-button-icon</value>
+      <webElementGuid>57cbccf2-f241-4ad0-a2af-573b8f37f699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>a-autoid-1</value>
+      <webElementGuid>0b9ec1f6-b656-41ca-a8cc-1eef5ebfeed8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to cart</value>
+      <webElementGuid>09badb6c-6b48-4a73-8709-dd4f83915c3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-autoid-1&quot;)</value>
+      <webElementGuid>7da7ebfe-bc52-4065-867f-4e5b171fbe91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='a-autoid-1']</value>
+      <webElementGuid>326cc64f-1ba4-4dc3-ba27-5bdd6c8b0117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='search']/div/div/div/span/div/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[3]/div/div/div[4]/div/div/div/span/div/span</value>
+      <webElementGuid>8239106a-dd61-4b56-9682-2c0f06bfbcc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more'])[1]/following::span[2]</value>
+      <webElementGuid>aefcd73c-cccf-4fa0-94eb-93110e2e477c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Small Business'])[2]/following::span[3]</value>
+      <webElementGuid>da436ae9-05d9-4ec2-b8c7-0f6b12838892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::span[3]</value>
+      <webElementGuid>e273d735-c682-456c-9762-bbc3621c7a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/span/div/span</value>
+      <webElementGuid>13ffd541-7d40-404d-8b37-08cf251b4825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'a-autoid-1' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>acbe81cb-23c9-4a2e-9b74-199ba51e83d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_v1.0,Chrome 122.0.0.0,,,28-02-2024 13:20:07,28-02-2024 13:20:59,51.489s,PASSED
+,,,,,,,
+Test Cases/Website,Chrome 122.0.0.0,,,28-02-2024 13:20:07,28-02-2024 13:20:59,51.346s,PASSED
+"testData = findTestData(""Data Files/DataTest"")",Chrome 122.0.0.0,,,28-02-2024 13:20:08,28-02-2024 13:20:08,0.338s,PASSED
+"email = testData.getObjectValue(""email"", 1)",Chrome 122.0.0.0,,,28-02-2024 13:20:08,28-02-2024 13:20:08,0.021s,PASSED
+"password = testData.getObjectValue(""password"", 1)",Chrome 122.0.0.0,,,28-02-2024 13:20:08,28-02-2024 13:20:08,0.002s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,28-02-2024 13:20:08,28-02-2024 13:20:09,1.384s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"")",Chrome 122.0.0.0,,,28-02-2024 13:20:09,28-02-2024 13:20:31,22.066s,PASSED
+"setText(findTestObject(""Object Repository/Website/Login/input_Email or mobile phone number_email""), email)",Chrome 122.0.0.0,,,28-02-2024 13:20:31,28-02-2024 13:20:32,0.852s,PASSED
+"click(findTestObject(""Object Repository/Website/Login/input_Enter your email or mobile phone number_continue""))",Chrome 122.0.0.0,,,28-02-2024 13:20:32,28-02-2024 13:20:33,0.935s,PASSED
+"setText(findTestObject(""Object Repository/Website/Login/input_Forgot your password_password""), password)",Chrome 122.0.0.0,,,28-02-2024 13:20:33,28-02-2024 13:20:34,1.104s,PASSED
+"click(findTestObject(""Object Repository/Website/Login/input_Enter your password_signInSubmit""))",Chrome 122.0.0.0,,,28-02-2024 13:20:34,28-02-2024 13:20:35,0.306s,PASSED
+"setText(findTestObject(""Object Repository/Website/product/search""), ""pc"")",Chrome 122.0.0.0,,,28-02-2024 13:20:35,28-02-2024 13:20:40,5.514s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com  pc/span_Add to cart""))",Chrome 122.0.0.0,,,28-02-2024 13:20:40,28-02-2024 13:20:53,12.465s,PASSED
+"click(findTestObject(""Object Repository/Website/product/Page cart""))",Chrome 122.0.0.0,,,28-02-2024 13:20:53,28-02-2024 13:20:59,5.991s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,28-02-2024 13:20:59,28-02-2024 13:20:59,0.135s,PASSED

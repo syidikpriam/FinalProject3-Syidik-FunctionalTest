@@ -1,0 +1,10 @@
+- Project ini terdiri dari 2 test case yaitu website dan mobile
+- di dalam object repository terbagi menjadi 2 folder diantaranya ada folder mobile dan folder website
+- di dalam folder website dan mobile terbagi lagi menjadi 2 sub folder diantaranya Login dan product
+- test case website berisikan automation untuk melakukan login sampai memasukan product kedalam keranjang dengan menggunakan browser web
+- test case website berisikan automation untuk melakukan login sampai memasukan product kedalam keranjang dengan menggunakan aplikasi android
+- di dalam folder Test Suites terdapat test suites Release_V1.0 yang berisikan kumpulan test case dari website dan mobile
+- sub folder login berisikan objek yang ada pada halaman login
+- sub folder product berisikan objek yang ada pada halaman product sampai memasukkan product kedalam keranjang
+- untuk Data Files yang digunakan ada Data Test, yaitu sebagai variable untuk menyimpan data yang berisikan email dan password sebagai nantinya yang akan di panggil di dalam test case website dan mobile
+-

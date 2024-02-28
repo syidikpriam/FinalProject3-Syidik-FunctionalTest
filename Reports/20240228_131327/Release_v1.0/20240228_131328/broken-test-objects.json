@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Website/product/Product name",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$379.99\u0027])[1]/preceding::span[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

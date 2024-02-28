@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_v1.0,,,,28-02-2024 13:08:25,28-02-2024 13:09:48,1m - 22.667s,FAILED
+,,,,,,,
+Test Cases/Mobile,,,,28-02-2024 13:08:25,28-02-2024 13:09:24,58.518s,PASSED
+"testData = findTestData(""Data Files/DataTest"")",,,,28-02-2024 13:08:25,28-02-2024 13:08:26,0.302s,PASSED
+"email = testData.getObjectValue(""email"", 1)",,,,28-02-2024 13:08:26,28-02-2024 13:08:26,0.019s,PASSED
+"password = testData.getObjectValue(""password"", 1)",,,,28-02-2024 13:08:26,28-02-2024 13:08:26,0.002s,PASSED
+"startApplication(""E:\zalora.apk"", true)",,,,28-02-2024 13:08:26,28-02-2024 13:08:59,32.935s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Login/Page - Login""), 0)",,,,28-02-2024 13:08:59,28-02-2024 13:09:02,3.489s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/Login/EditText - Alamat Email""), email, 0)",,,,28-02-2024 13:09:02,28-02-2024 13:09:07,4.700s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/Login/EditText - Password""), password, 0)",,,,28-02-2024 13:09:07,28-02-2024 13:09:10,3.048s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Login/Button - Masuk""), 0, OPTIONAL)",,,,28-02-2024 13:09:10,28-02-2024 13:09:11,1.197s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Button - SHOP PRIA""), 0, OPTIONAL)",,,,28-02-2024 13:09:11,28-02-2024 13:09:13,2.215s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Page - Produk""), 0, OPTIONAL)",,,,28-02-2024 13:09:13,28-02-2024 13:09:16,2.713s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Button - Pesan""), 0, OPTIONAL)",,,,28-02-2024 13:09:16,28-02-2024 13:09:17,0.882s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Page - Cart""), 0, OPTIONAL)",,,,28-02-2024 13:09:17,28-02-2024 13:09:22,4.921s,PASSED
+closeApplication(),,,,28-02-2024 13:09:22,28-02-2024 13:09:24,1.843s,PASSED
+,,,,,,,
+Test Cases/Website,,,,28-02-2024 13:09:44,28-02-2024 13:09:48,4.018s,FAILED
+"testData = findTestData(""Data Files/DataTest"")",,,,28-02-2024 13:09:44,28-02-2024 13:09:44,0.008s,PASSED
+"email = testData.getObjectValue(""email"", 1)",,,,28-02-2024 13:09:44,28-02-2024 13:09:44,0.000s,PASSED
+"password = testData.getObjectValue(""password"", 1)",,,,28-02-2024 13:09:44,28-02-2024 13:09:44,0.001s,PASSED
+"openBrowser("""")",,,,28-02-2024 13:09:44,28-02-2024 13:09:48,3.997s,FAILED

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Release_v1.0" time="51.489" tests="1" failures="0" errors="0">
+   <testsuite name="Release_v1.0" tests="1" failures="0" errors="0" time="51.489" skipped="0" timestamp="28-02-2024T13:20:07" hostname="syidi - Syidik" id="Test Suites/Release_v1.0">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\syidi\\Katalon Studio\\FinalProject3-Syidik-FunctionalTest\\Reports\\20240228_132002\\Release_v1.0\\20240228_132002"/>
+         <property name="logFiles" value="C:\\Users\\syidi\\Katalon Studio\\FinalProject3-Syidik-FunctionalTest\\Reports\\20240228_132002\\Release_v1.0\\20240228_132002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="syidi - Syidik"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="253adc3aca6d8548d0c03fe9f53eb269"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Website" time="51.346" classname="Test Cases/Website" status="PASSED">
+         <system-out><![CDATA[28-02-2024T13:20:07 - [TEST_CASE][PASSED] - Test Cases/Website: Test Cases/Website
+
+28-02-2024T13:20:08 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/DataTest"): null
+
+28-02-2024T13:20:08 - [TEST_STEP][PASSED] - email = testData.getObjectValue("email", 1): null
+
+28-02-2024T13:20:08 - [TEST_STEP][PASSED] - password = testData.getObjectValue("password", 1): null
+
+28-02-2024T13:20:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T13:20:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2024T13:20:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T13:20:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T13:20:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"): Navigate to 'https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' successfully
+
+28-02-2024T13:20:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26signIn%3D1%26useRedirectOnSuccess%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0' successfully
+
+28-02-2024T13:20:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Website/Login/input_Email or mobile phone number_email"), email): Text 'andri.rezaaa@gmail.com' is set on object 'Object Repository/Website/Login/input_Email or mobile phone number_email'
+
+28-02-2024T13:20:32 - [MESSAGE][PASSED] - Text 'andri.rezaaa@gmail.com' is set on object 'Object Repository/Website/Login/input_Email or mobile phone number_email'
+
+28-02-2024T13:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Website/Login/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/Website/Login/input_Enter your email or mobile phone number_continue' is clicked on
+
+28-02-2024T13:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/Login/input_Enter your email or mobile phone number_continue' is clicked on
+
+28-02-2024T13:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Website/Login/input_Forgot your password_password"), password): Text 'adreno115' is set on object 'Object Repository/Website/Login/input_Forgot your password_password'
+
+28-02-2024T13:20:34 - [MESSAGE][PASSED] - Text 'adreno115' is set on object 'Object Repository/Website/Login/input_Forgot your password_password'
+
+28-02-2024T13:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Website/Login/input_Enter your password_signInSubmit")): Object: 'Object Repository/Website/Login/input_Enter your password_signInSubmit' is clicked on
+
+28-02-2024T13:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/Login/input_Enter your password_signInSubmit' is clicked on
+
+28-02-2024T13:20:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Website/product/search"), "pc"): Text 'pc' is set on object 'Object Repository/Website/product/search'
+
+28-02-2024T13:20:40 - [MESSAGE][PASSED] - Text 'pc' is set on object 'Object Repository/Website/product/search'
+
+28-02-2024T13:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Amazon.com  pc/span_Add to cart")): Object: 'Object Repository/Page_Amazon.com  pc/span_Add to cart' is clicked on
+
+28-02-2024T13:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com  pc/span_Add to cart' is clicked on
+
+28-02-2024T13:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Website/product/Page cart")): Object: 'Object Repository/Website/product/Page cart' is clicked on
+
+28-02-2024T13:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Website/product/Page cart' is clicked on
+
+28-02-2024T13:20:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+28-02-2024T13:20:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2024T13:20:07 - [TEST_SUITE][PASSED] - Release_v1.0: Test Cases/Website]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
