@@ -540,3 +540,16 @@
 [38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]/android.widget.Button[1]"}[39m
 [38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/d7cf5856-e9e3-4a3b-81e3-1ca00b901ad6/elements [39m[32m-[39m [90m- ms - -[39m
 [38;5;0m[HTTP][0m [90m[39m
+[38;5;48m[AndroidUiautomator2Driver@df16 (d7cf5856)][0m Shutting down because we waited 1800 seconds for a command
+[38;5;16m[AppiumDriver@e3e9][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;16m[AppiumDriver@e3e9][0m Removing session 'd7cf5856-e9e3-4a3b-81e3-1ca00b901ad6' from our master session list
+[38;5;48m[AndroidUiautomator2Driver@df16 (d7cf5856)][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,dumpsys,activity,services,io.appium.settings/.recorder.RecorderService
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.zalora.android
+[38;5;48m[AndroidUiautomator2Driver@df16 (d7cf5856)][0m Unable to force stop app: Could not find a connected Android device in 20000ms
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,pm,path,com.zalora.android
+[38;5;64m[ADB][0m com.zalora.android was not uninstalled, because it was not present on the device
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: forward,--remove,tcp:63641
+[38;5;48m[AndroidUiautomator2Driver@df16 (d7cf5856)][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
+[38;5;48m[AndroidUiautomator2Driver@df16 (d7cf5856)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy

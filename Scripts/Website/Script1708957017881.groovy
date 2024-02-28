@@ -32,6 +32,6 @@ WebUI.setText(findTestObject('Object Repository/Website/Login/input_Forgot your 
 WebUI.click(findTestObject('Object Repository/Website/Login/input_Enter your password_signInSubmit'))
 WebUI.setText(findTestObject('Object Repository/Website/product/search'), 'pc')
 WebUI.click(findTestObject('Object Repository/Website/product/Button search'))
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com  pc/span_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Website/product/Add to cart'))
 WebUI.click(findTestObject('Object Repository/Website/product/Page cart'))
 WebUI.closeBrowser()

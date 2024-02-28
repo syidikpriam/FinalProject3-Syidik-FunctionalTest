@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_v2.0,,,,28-02-2024 21:13:41,28-02-2024 21:15:12,1m - 30.777s,PASSED
+,,,,,,,
+Test Cases/Mobile,,,,28-02-2024 21:13:41,28-02-2024 21:15:12,1m - 30.624s,PASSED
+"testData = findTestData(""Data Files/DataTest"")",,,,28-02-2024 21:13:42,28-02-2024 21:13:42,0.317s,PASSED
+"email = testData.getObjectValue(""email"", 1)",,,,28-02-2024 21:13:42,28-02-2024 21:13:42,0.019s,PASSED
+"password = testData.getObjectValue(""password"", 1)",,,,28-02-2024 21:13:42,28-02-2024 21:13:42,0.002s,PASSED
+"startApplication(""E:\zalora.apk"", true)",,,,28-02-2024 21:13:42,28-02-2024 21:14:13,30.834s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Login/Page - Login""), 0)",,,,28-02-2024 21:14:13,28-02-2024 21:14:17,4.343s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/Login/EditText - Alamat Email""), email, 0)",,,,28-02-2024 21:14:17,28-02-2024 21:14:24,6.835s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/Login/EditText - Password""), password, 0)",,,,28-02-2024 21:14:24,28-02-2024 21:14:27,2.732s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Login/Button - Masuk""), 0, OPTIONAL)",,,,28-02-2024 21:14:27,28-02-2024 21:14:30,3.203s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Button - SHOP PRIA""), 0, OPTIONAL)",,,,28-02-2024 21:14:30,28-02-2024 21:14:32,1.814s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Page - Produk""), 0, OPTIONAL)",,,,28-02-2024 21:14:32,28-02-2024 21:14:37,5.713s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Button - Pesan""), 0, OPTIONAL)",,,,28-02-2024 21:14:37,28-02-2024 21:15:09,31.293s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/Product/Page - Cart""), 0, OPTIONAL)",,,,28-02-2024 21:15:09,28-02-2024 21:15:10,1.522s,PASSED
+closeApplication(),,,,28-02-2024 21:15:10,28-02-2024 21:15:12,1.763s,PASSED
