@@ -1,0 +1,183 @@
+[35m[Appium][39m Welcome to Appium v2.5.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m49230[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Attempting to load driver xcuitest...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:49230/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.1.12:49230/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:49230/wd/hub (only accessible from the same host)
+[35m[Appium][39m 	http://172.23.192.1:49230/wd/hub
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@3.0.0 (automationName 'UiAutomator2')
+[35m[Appium][39m   - xcuitest@7.1.0 (automationName 'XCUITest')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:browserName":"chrome","appium:udid":"RR8N201JL8Z","appium:newCommandTimeout":1800,"appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:deviceName":"samsung SM-G985F (Android 13)","platformName":"Android","appium:automationName":"uiautomator2","appium:platformVersion":"13"},"capabilities":{"firstMatch":[{"appium:automationName":"uiautomator2","appium:browserName":"chrome","appium:deviceName":"samsung SM-G985F (Android 13)","appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:udid":"RR8N201JL8Z","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m The capabilities ["browserName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@dd52][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.0) session
+[38;5;16m[AppiumDriver@dd52][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@dd52][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@dd52][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@1129][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[AndroidUiautomator2Driver@1129][0m   goog:chromeOptions
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Session created with session id: cc16000b-3b79-483c-b7e3-5837208e345c
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\syidi\.katalon\tools\android_sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\syidi\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Using device: RR8N201JL8Z
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m We're going to run a Chrome-based session
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Chrome-type package and activity are com.android.chrome and com.android.chrome/com.google.android.apps.chrome.Main
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Starting 'com.android.chrome' directly on the device
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Relaxing hidden api policy
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m No app sent in, not parsing package/activity
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\syidi\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;64m[ADB][0m 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' is signed with the default certificate
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Starting UIAutomator2 server 7.0.0
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Using UIAutomator2 server from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' and test from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Starting a chrome-based browser session
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Merging 'goog:chromeOptions' into 'chromeOptions'. This may cause unexpected behavior
+[38;5;48m[AndroidUiautomator2Driver@1129 (cc16000b)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m4934 ms - 862[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:browserName":"chrome","appium:udid":"RR8N201JL8Z","appium:newCommandTimeout":1800,"appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:deviceName":"samsung SM-G985F (Android 13)","platformName":"Android","appium:automationName":"uiautomator2","appium:platformVersion":"13"},"capabilities":{"firstMatch":[{"appium:automationName":"uiautomator2","appium:browserName":"chrome","appium:deviceName":"samsung SM-G985F (Android 13)","appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:udid":"RR8N201JL8Z","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m The capabilities ["browserName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@dd52][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.0) session
+[38;5;16m[AppiumDriver@dd52][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@dd52][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@dd52][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@aaea][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[AndroidUiautomator2Driver@aaea][0m   goog:chromeOptions
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Session created with session id: beba7346-3631-4ab1-8ac9-2c5fc7a76226
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Using device: RR8N201JL8Z
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m We're going to run a Chrome-based session
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Chrome-type package and activity are com.android.chrome and com.android.chrome/com.google.android.apps.chrome.Main
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Starting 'com.android.chrome' directly on the device
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Relaxing hidden api policy
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m No app sent in, not parsing package/activity
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Starting UIAutomator2 server 7.0.0
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Using UIAutomator2 server from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' and test from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Starting a chrome-based browser session
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Merging 'goog:chromeOptions' into 'chromeOptions'. This may cause unexpected behavior
+[38;5;48m[AndroidUiautomator2Driver@aaea (beba7346)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m3633 ms - 862[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:browserName":"chrome","appium:udid":"RR8N201JL8Z","appium:newCommandTimeout":1800,"appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:deviceName":"samsung SM-G985F (Android 13)","platformName":"Android","appium:automationName":"uiautomator2","appium:platformVersion":"13"},"capabilities":{"firstMatch":[{"appium:automationName":"uiautomator2","appium:browserName":"chrome","appium:deviceName":"samsung SM-G985F (Android 13)","appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:udid":"RR8N201JL8Z","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m The capabilities ["browserName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@dd52][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.0) session
+[38;5;16m[AppiumDriver@dd52][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@dd52][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@dd52][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@b027][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[AndroidUiautomator2Driver@b027][0m   goog:chromeOptions
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Session created with session id: 95c6b668-07f3-4a69-bcce-349088a9eba8
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Using device: RR8N201JL8Z
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m We're going to run a Chrome-based session
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Chrome-type package and activity are com.android.chrome and com.android.chrome/com.google.android.apps.chrome.Main
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Starting 'com.android.chrome' directly on the device
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Relaxing hidden api policy
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m No app sent in, not parsing package/activity
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Starting UIAutomator2 server 7.0.0
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Using UIAutomator2 server from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' and test from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Starting a chrome-based browser session
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Merging 'goog:chromeOptions' into 'chromeOptions'. This may cause unexpected behavior
+[38;5;48m[AndroidUiautomator2Driver@b027 (95c6b668)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m3640 ms - 862[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:browserName":"chrome","appium:udid":"RR8N201JL8Z","appium:newCommandTimeout":1800,"appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:deviceName":"samsung SM-G985F (Android 13)","platformName":"Android","appium:automationName":"uiautomator2","appium:platformVersion":"13"},"capabilities":{"firstMatch":[{"appium:automationName":"uiautomator2","appium:browserName":"chrome","appium:deviceName":"samsung SM-G985F (Android 13)","appium:goog:chromeOptions":{"args":[],"extensions":[],"w3c":false},"appium:newCommandTimeout":1800,"appium:platformVersion":"13","appium:udid":"RR8N201JL8Z","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m The capabilities ["browserName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@dd52][0m Appium v2.5.1 creating new AndroidUiautomator2Driver (v3.0.0) session
+[38;5;16m[AppiumDriver@dd52][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@dd52][0m Appium's BaseDriver version is 9.5.2
+[38;5;16m[AppiumDriver@dd52][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.2
+[38;5;48m[AndroidUiautomator2Driver@ba8c][0m The following provided capabilities were not recognized by this driver:
+[38;5;48m[AndroidUiautomator2Driver@ba8c][0m   goog:chromeOptions
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Session created with session id: e4aa4b44-70df-4904-a4f7-d62eebf9c5f6
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Retrieving device list
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Using device: RR8N201JL8Z
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\syidi\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m We're going to run a Chrome-based session
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Chrome-type package and activity are com.android.chrome and com.android.chrome/com.google.android.apps.chrome.Main
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Starting 'com.android.chrome' directly on the device
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Relaxing hidden api policy
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m No app sent in, not parsing package/activity
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Starting UIAutomator2 server 7.0.0
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Using UIAutomator2 server from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.0.apk' and test from 'C:\Users\syidi\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Starting a chrome-based browser session
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Merging 'goog:chromeOptions' into 'chromeOptions'. This may cause unexpected behavior
+[38;5;48m[AndroidUiautomator2Driver@ba8c (e4aa4b44)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m3690 ms - 862[39m
+[38;5;0m[HTTP][0m [90m[39m

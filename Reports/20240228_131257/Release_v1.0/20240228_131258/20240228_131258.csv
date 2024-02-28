@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_v1.0,,,,28-02-2024 13:13:03,28-02-2024 13:13:04,1.035s,FAILED
+,,,,,,,
+Test Cases/Mobile,,,,28-02-2024 13:13:04,28-02-2024 13:13:04,0.033s,FAILED
+"testData = findTestData(""Data Files/DataTest"")",,,,28-02-2024 13:13:04,28-02-2024 13:13:04,0.013s,PASSED
+"email = testData.getObjectValue(""email"", 1)",,,,28-02-2024 13:13:04,28-02-2024 13:13:04,0.001s,PASSED
+"password = testData.getObjectValue(""password"", 1)",,,,28-02-2024 13:13:04,28-02-2024 13:13:04,0.001s,PASSED
+"startApplication(""E:\zalora.apk"", true)",,,,28-02-2024 13:13:04,28-02-2024 13:13:04,0.004s,FAILED
