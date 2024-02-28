@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Belanja Online Fashion Lifestyle Gampang, Aman, Terpercaya.  matahari.com/input Search",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027search\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240228_203451/Release_v1.0/20240228_203452/Object Repository/Page_Belanja Online Fashion Lifestyle Gampang, Aman, Terpercaya.  matahari.com/input Search_attributes.png"
+    }
+  ]
+}

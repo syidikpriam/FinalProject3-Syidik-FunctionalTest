@@ -18,6 +18,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Belanja Online Fashion Lifestyle Gampang, Aman, Terpercaya.  matahari.com/input Search",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027search\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Belanja Online Fashion Lifestyle Gampang, Aman, Terpercaya.  matahari.com/input Search_attributes.png"
     }
   ]
 }
